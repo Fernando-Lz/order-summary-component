@@ -9,10 +9,10 @@ body {
   height: 100vh;
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
-  background: url("images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-color: hsl(225, 100%, 94%);
+  background-image: url("images/pattern-background-desktop.svg"),
+    linear-gradient(#e0e8ff 0% 100%);
+  background-size: 100% 50%, cover;
   color: hsl(224, 23%, 55%);
   display: flex;
   align-items: center;
