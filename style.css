@@ -1,0 +1,97 @@
+/* GENERAL STYLES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  background: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  color: hsl(224, 23%, 55%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+}
+
+/* CARD */
+.container {
+  background-color: #fff;
+  width: 350px;
+  border-radius: 18px;
+  box-shadow: 0 18px 18px rgba(0, 0, 0, 0.07);
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 18px 18px 0 0;
+}
+
+.card-content {
+  padding: 30px;
+}
+
+.card-title {
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.card-description {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.plan {
+  background-color: hsl(225, 100%, 98%);
+  font-size: 14px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.plan-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.plan-name {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.btn-payment:link,
+.btn-payment:visited {
+  padding: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 12px hsl(245, 75%, 52%, 30%);
+}
+
+.btn-cancel:link,
+.btn-cancel:visited {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
