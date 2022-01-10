@@ -19,13 +19,6 @@ body {
   justify-content: center;
 }
 
-@media only screen and (max-width: 375px) {
-  body {
-    background-image: url('images/pattern-background-mobile.svg'),
-      linear-gradient(#e0e8ff 0% 100%);
-  }
-}
-
 .btn {
   display: block;
   text-align: center;
@@ -135,4 +128,19 @@ body {
 .btn-cancel:hover,
 .btn-cancel:active {
   color: hsl(223, 47%, 23%);
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: url('images/pattern-background-mobile.svg'),
+      linear-gradient(#e0e8ff 0% 100%);
+  }
+
+  .container {
+    width: 300px;
+  }
+
+  .plan-details {
+    margin-left: -30px;
+  }
 }
