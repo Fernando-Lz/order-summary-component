@@ -7,10 +7,10 @@
 
 body {
   height: 100vh;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
   background-repeat: no-repeat;
-  background-image: url("images/pattern-background-desktop.svg"),
+  background-image: url('images/pattern-background-desktop.svg'),
     linear-gradient(#e0e8ff 0% 100%);
   background-size: 100% 50%, cover;
   color: hsl(224, 23%, 55%);
@@ -61,8 +61,16 @@ body {
   padding: 15px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border-radius: 10px;
   margin-bottom: 20px;
+}
+
+.plan-details {
+  margin-left: -70px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .plan-icon {
@@ -73,6 +81,22 @@ body {
 .plan-name {
   color: hsl(223, 47%, 23%);
   font-weight: 900;
+}
+
+.change {
+  justify-self: end;
+}
+
+.change:link,
+.change:visited {
+  font-size: 12px;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+
+.change:hover,
+.change:active {
+  opacity: 0.7;
 }
 
 .btn-payment:link,
@@ -88,10 +112,20 @@ body {
   box-shadow: 0 10px 12px hsl(245, 75%, 52%, 30%);
 }
 
+.btn-payment:hover,
+.btn-payment:active {
+  opacity: 0.7;
+}
+
 .btn-cancel:link,
 .btn-cancel:visited {
   text-decoration: none;
   font-size: 12px;
   font-weight: 700;
   color: hsl(224, 23%, 55%);
+}
+
+.btn-cancel:hover,
+.btn-cancel:active {
+  color: hsl(223, 47%, 23%);
 }
