@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Links
 
-- [Live Site URL](https://fernandolopezl.github.io/order-summary-component/)
+- [Live Site URL](https://fernando-lz.github.io/order-summary-component/)
   
 ### Screenshot
 
